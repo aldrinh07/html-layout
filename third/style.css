@@ -1,0 +1,50 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.headP {
+    position: fixed;
+    height: 13%;
+    width: 100%;
+    background-color: gainsboro;}
+
+.headC {
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 80%;
+    margin-bottom: 90%;
+    height: 70%;
+    width: 10%;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+}
+
+.text {
+    height: 25%;
+    padding-top: 15%;
+    padding-left: 5%;
+    background-color: ghostwhite;
+}
+
+.strip {
+    height: 15%;
+    width: 100%;
+}
+
+.one {
+    background-color: dodgerblue;
+}
+
+.two {
+    background-color: lightseagreen;
+}
+
+.three {
+    background-color: mediumseagreen;
+}
+
+.footer {
+    background-color: yellow;
+}
