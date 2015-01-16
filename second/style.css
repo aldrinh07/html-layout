@@ -1,6 +1,7 @@
 html, body {
-    width: 1000px;
-    height: 1000px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 
@@ -29,8 +30,9 @@ html, body {
 .imagebox {
     width: 33.33%;
     height: 20%;
-    background-image: url("https://c2.staticflickr.com/4/3255/3866442633_4ce94401ed_b.jpg");
-    background-size: cover;
+    background: url("https://c2.staticflickr.com/4/3255/3866442633_4ce94401ed_b.jpg") no-repeat;
+    background-size: contain;
+
     float: left;
 }
 
