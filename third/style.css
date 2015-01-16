@@ -5,27 +5,29 @@ html, body {
 }
 
 .headP {
-    position: fixed;
     height: 13%;
     width: 100%;
-    background-color: gainsboro;}
+    background-color: gainsboro;
+    float: left;
+}
 
 .headC {
-    margin-top: 2%;
-    margin-left: 1%;
-    margin-right: 80%;
-    margin-bottom: 90%;
     height: 70%;
     width: 10%;
+    margin-top: 2%;
+    margin-left: 2%;
     background-color: cornflowerblue;
     box-sizing: border-box;
 }
 
 .text {
-    height: 25%;
-    padding-top: 15%;
+    height: 40%;
+    width: 100%;
+    padding-top: 5%;
     padding-left: 5%;
+    padding-right: 5%;
     background-color: ghostwhite;
+    box-sizing: border-box;
 }
 
 .strip {
